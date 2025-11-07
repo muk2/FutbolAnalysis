@@ -1,0 +1,98 @@
+################################################################################
+# PYTHON
+################################################################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.whl
+
+# Python environments
+.env
+.venv
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Logs
+logs/
+*.log
+
+# Coverage and test outputs
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+################################################################################
+# RUST (PyO3, maturin)
+################################################################################
+target/
+Cargo.lock            # optional: keep if this library is standalone
+*.rlib
+
+# maturin build artifacts
+*.pyd
+*.so
+*.dll
+
+# Wheel build outputs
+target/wheels/
+wheels/
+
+################################################################################
+# DATA / MODELS
+################################################################################
+# YOLO trained weights
+runs/
+*.pt                 
+# includes YOLOv8 weights
+
+# Datasets (optional, if large)
+dataset/
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+################################################################################
+# IDE / EDITOR
+################################################################################
+.vscode/
+.idea/
+*.iml
+
+################################################################################
+# OS FILES
+################################################################################
+.DS_Store
+Thumbs.db
+
+################################################################################
+# ENV CONFIGS
+################################################################################
+.env.local
+*.envrc
